@@ -1,0 +1,59 @@
+{
+  "stores": [
+    {
+      "id": "metro",
+      "name": "METRO",
+      "logo_url": "......../metro.png", //путь к логотипу
+      "address": "г. Москва, ул. Примерная, д. 11",
+      "nearest_delivery": {
+        "date": "2026-01-04",
+        "time": "16:00",
+	"duration_minutes": null,
+        "display_text": "Ближайшая доставка: сегодня в 16:00"
+      },
+      "external_url": "https://metro-cc.ru/"
+    },
+    {
+      "id": "auchan",
+      "name": "Ашан",
+      "logo_url": "......../auchan.png",  //путь к логотипу
+      "address": "г. Москва, ул. Примерная, д. 10",
+      "nearest_delivery": {
+        "date": "2026-01-05",
+        "time": "10:00",
+        "duration_minutes": null,
+	"display_text": "Ближайшая доставка: завтра в 10:00"
+      },
+      "external_url": "https://auchan.ru"
+    },
+    {
+      "id": "vkusvill",
+      "name": "ВкусВилл",
+      "logo_url": "......../vkusvill.png",   //путь к логотипу
+      "address": "г. Москва, ул. Тестовая, д. 1",
+      "nearest_delivery": {
+        "date": null,
+        "time": null,
+	"duration_minutes": {
+          "min": 20,
+          "max": 60
+        },
+        "display_text": "Быстрая доставка от 20 до 60 минут"
+      },
+      "external_url": "https://vkusvill.ru/"
+    },
+    {
+      "id": "victoria",
+      "name": "Виктория",
+      "logo_url": "......../victoria.png",  //путь к логотипу
+      "address": "г. Москва, ул. Примерная, д. 1",
+      "nearest_delivery": {
+        "date": "2026-01-04",
+        "time": "17:00-19:00",
+        "duration_minutes": null,
+	"display_text": "Ближайшая доставка сегодня 17:00-19:00"
+      },
+      "external_url": "ссылка на сайт"
+    }
+  ]
+}
